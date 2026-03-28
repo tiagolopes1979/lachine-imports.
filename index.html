@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#111111" />
+  <title>LACHINE IMPORTS | Perfumaria Árabe Premium</title>
+
+  <meta
+    name="description"
+    content="Descubra perfumes árabes importados com presença, luxo e personalidade. Explore fragrâncias intensas, sofisticadas e marcantes."
+  />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="LACHINE IMPORTS | Perfumaria Árabe Premium" />
+  <meta
+    property="og:description"
+    content="Descubra fragrâncias árabes importadas com luxo, sofisticação e identidade marcante."
+  />
+  <meta property="og:site_name" content="LACHINE IMPORTS" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="LACHINE IMPORTS | Perfumaria Árabe Premium" />
+  <meta
+    name="twitter:description"
+    content="Explore um catálogo premium de perfumes árabes intensos, sofisticados e memoráveis."
+  />
+
+  <link rel="stylesheet" href="style.css" />
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" id="topo">
+    <div class="container header-inner">
+      <a class="brand" href="#topo" aria-label="Ir para o início">
+        <img src="img/logo.png" alt="LACHINE IMPORTS" />
+      </a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="menu"
+        aria-label="Abrir menu principal"
+      >
+        Menu
+      </button>
+
+      <nav class="site-nav" id="menu" aria-label="Navegação principal">
+        <a href="#catalogo">Catálogo</a>
+        <a href="#colecoes">Coleções</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <a class="btn btn-primary header-cta" href="#catalogo">Explorar agora</a>
+    </div>
+  </header>
+
+  <main id="conteudo" tabindex="-1">
+    <section class="hero" aria-label="Seção principal">
+      <video autoplay muted loop playsinline preload="metadata" class="bg-video" aria-hidden="true">
+        <source src="img/luxury_spray.mp4" type="video/mp4" />
+        Seu navegador não suporta vídeo.
+      </video>
+
+      <div class="hero-overlay"></div>
+      <div class="hero-noise"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow reveal">Perfumaria árabe premium</p>
+
+          <h1 class="title-reveal">
+            Perfumes árabes de presença,
+            <span>luxo e identidade.</span>
+          </h1>
+
+          <p class="lead reveal reveal-delay-1">
+            Descubra fragrâncias intensas, sofisticadas e memoráveis para quem deseja ser lembrado.
+          </p>
+
+          <div class="cta-row reveal reveal-delay-2">
+            <a class="btn btn-primary" href="#catalogo">Explorar catálogo</a>
+            <a class="btn btn-secondary" href="#colecoes">Ver coleções</a>
+          </div>
+
+          <ul class="trust-row reveal reveal-delay-3" aria-label="Destaques">
+            <li><span class="dot" aria-hidden="true"></span>Fragrâncias árabes importadas</li>
+            <li><span class="dot" aria-hidden="true"></span>Perfis intensos e sofisticados</li>
+            <li><span class="dot" aria-hidden="true"></span>Ideal para uso pessoal e presente</li>
+          </ul>
+        </div>
+
+        <div class="hero-media reveal reveal-delay-4" aria-label="Destaque visual">
+          <div class="hero-card">
+            <p class="hero-card-title">Essência de luxo</p>
+            <p class="hero-card-sub">
+              Explore fragrâncias que unem mistério, elegância e forte identidade olfativa.
+            </p>
+
+            <div class="hero-badges">
+              <span class="badge">Oud</span>
+              <span class="badge">Âmbar</span>
+              <span class="badge">Oriental</span>
+              <span class="badge">Especiado</span>
+              <span class="badge">Amadeirado</span>
+            </div>
+
+            <a class="btn btn-ghost" href="#colecoes">Descobrir coleções</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="colecoes" aria-label="Coleções">
+      <div class="container">
+        <h2>Coleções por família olfativa</h2>
+        <p class="muted">
+          Navegue por estilos e descubra fragrâncias que combinam com seu gosto e sua ocasião.
+        </p>
+
+        <div class="grid-collections" id="collectionsGrid" aria-live="polite"></div>
+        <noscript>
+          <p class="muted noscript-message">
+            Ative o JavaScript para navegar pelas coleções interativas ou fale conosco pelo WhatsApp.
+          </p>
+        </noscript>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Produtos em destaque">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>Fragrâncias em destaque</h2>
+            <p class="muted">Seleção especial de perfumes com presença e sofisticação.</p>
+          </div>
+          <a class="btn btn-secondary" href="#catalogo">Ver catálogo</a>
+        </div>
+
+        <div class="grid-products" id="featuredGrid" aria-live="polite"></div>
+        <noscript>
+          <p class="muted noscript-message">
+            Ative o JavaScript para visualizar os destaques dinâmicos do catálogo.
+          </p>
+        </noscript>
+      </div>
+    </section>
+
+    <section class="section catalog" id="catalogo" aria-label="Catálogo de perfumes">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <h2>Catálogo premium</h2>
+            <p class="muted">
+              Busque, filtre e compare fragrâncias intensas, sofisticadas e memoráveis.
+            </p>
+          </div>
+        </div>
+
+        <div class="catalog-layout">
+          <aside class="filters" aria-label="Filtros do catálogo">
+            <div class="filters-head">
+              <h3>Filtros</h3>
+              <button class="link-btn" type="button" id="clearFiltersBtn">Limpar</button>
+            </div>
+
+            <label class="field">
+              <span>Buscar</span>
+              <input id="searchInput" type="search" placeholder="Nome, notas, estilo..." autocomplete="off" />
+            </label>
+
+            <div class="field">
+              <span>Famílias</span>
+              <div class="chips" id="familyChips" aria-label="Filtro por família"></div>
+            </div>
+
+            <label class="field">
+              <span>Intensidade</span>
+              <select id="intensitySelect">
+                <option value="">Todas</option>
+                <option value="Suave">Suave</option>
+                <option value="Moderada">Moderada</option>
+                <option value="Intensa">Intensa</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span>Preço máximo: <strong id="priceValue">—</strong></span>
+              <input id="priceRange" type="range" min="0" max="1000" step="10" value="1000" />
+            </label>
+
+            <label class="field">
+              <span>Ordenar</span>
+              <select id="sortSelect">
+                <option value="relevance">Relevância</option>
+                <option value="priceAsc">Preço: menor → maior</option>
+                <option value="priceDesc">Preço: maior → menor</option>
+                <option value="nameAsc">Nome: A → Z</option>
+              </select>
+            </label>
+          </aside>
+
+          <section class="results" aria-label="Resultados do catálogo">
+            <div class="results-bar" id="catalogResults">
+              <p class="muted"><strong id="resultsCount">0</strong> itens encontrados</p>
+              <button class="btn btn-ghost" type="button" id="loadMoreBtn">Carregar mais</button>
+            </div>
+
+            <div class="grid-products" id="productsGrid" aria-live="polite"></div>
+            <noscript>
+              <p class="muted noscript-message">
+                O catálogo completo usa JavaScript para filtros e busca. Se preferir, faça seu pedido
+                pelo WhatsApp informado no rodapé.
+              </p>
+            </noscript>
+
+            <p class="muted small">
+              O botão “Comprar” abre um atendimento com mensagem pronta no WhatsApp.
+            </p>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="depoimentos" aria-label="Depoimentos">
+      <div class="container">
+        <h2>O que nossos clientes sentem</h2>
+        <p class="muted">Exemplos de depoimentos para a vitrine da loja.</p>
+
+        <div class="grid-3">
+          <article class="card">
+            <p class="quote">
+              “Fragrância intensa e elegante. Realmente passa muita presença.”
+            </p>
+            <p class="muted small">— Mariana S., SP</p>
+          </article>
+
+          <article class="card">
+            <p class="quote">
+              “Tem personalidade forte e foge do perfume comum.”
+            </p>
+            <p class="muted small">— Rafael M., RJ</p>
+          </article>
+
+          <article class="card">
+            <p class="quote">
+              “Luxuoso, marcante e sofisticado. Excelente para presente.”
+            </p>
+            <p class="muted small">— Aline P., MG</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="faq" aria-label="Perguntas frequentes">
+      <div class="container">
+        <h2>FAQ</h2>
+        <p class="muted">Respostas objetivas para ajudar na decisão de compra.</p>
+
+        <div class="faq">
+          <details>
+            <summary>Como escolher a fragrância ideal?</summary>
+            <p>
+              Observe a família olfativa, a intensidade e a ocasião de uso. Perfumes com oud, âmbar e especiarias costumam ser mais marcantes.
+            </p>
+          </details>
+
+          <details>
+            <summary>Os perfumes são originais?</summary>
+            <p>
+              Use este espaço para explicar procedência, nota fiscal, lote e demais informações da sua loja.
+            </p>
+          </details>
+
+          <details>
+            <summary>Posso tirar dúvidas antes de comprar?</summary>
+            <p>
+              Sim. Você pode direcionar o cliente para WhatsApp, Instagram ou outro canal de atendimento.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" aria-label="Rodapé">
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-brand">LACHINE IMPORTS</p>
+        <p class="muted small">Perfumaria árabe premium</p>
+      </div>
+
+      <div>
+        <p class="footer-title">Atendimento</p>
+        <p class="muted small">
+          WhatsApp:
+          <a href="#" id="footerWhatsAppLink" rel="noopener noreferrer">carregando contato...</a>
+        </p>
+        <p class="muted small">Instagram: @lachineimports</p>
+      </div>
+
+      <div>
+        <p class="footer-title">Links</p>
+        <p class="muted small"><a href="#catalogo">Catálogo</a></p>
+        <p class="muted small"><a href="#colecoes">Coleções</a></p>
+        <p class="muted small"><a href="#faq">FAQ</a></p>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p class="muted small">© <span id="year"></span> LACHINE IMPORTS. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <div
+    class="modal"
+    id="productModal"
+    role="dialog"
+    aria-modal="true"
+    aria-hidden="true"
+    aria-labelledby="modalTitle"
+    aria-describedby="modalBody"
+  >
+    <div class="modal-overlay" data-close="true"></div>
+    <div class="modal-panel" role="document">
+      <div class="modal-head">
+        <h3 id="modalTitle">Produto</h3>
+        <button class="icon-btn" type="button" id="closeModalBtn" aria-label="Fechar">✕</button>
+      </div>
+      <div class="modal-body" id="modalBody"></div>
+      <div class="modal-foot">
+        <button class="btn btn-secondary" type="button" data-close="true">Voltar</button>
+        <a class="btn btn-primary" href="#catalogo" id="modalBuyBtn">Comprar</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
