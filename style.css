@@ -99,7 +99,7 @@ summary:focus-visible {
 }
 
 .header-inner {
-  min-height: 84px;
+  min-height: 92px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -107,9 +107,12 @@ summary:focus-visible {
 }
 
 .brand img {
-  height: 72px;
+  height: 82px;
   width: auto;
   object-fit: contain;
+  filter:
+    drop-shadow(0 0 12px rgba(200, 164, 93, 0.24))
+    drop-shadow(0 6px 16px rgba(0, 0, 0, 0.35));
 }
 
 /* NAV DESKTOP */
@@ -882,7 +885,7 @@ summary:focus-visible {
     align-items: flex-start;
     gap: 16px;
     position: absolute;
-    top: 84px;
+    top: 92px;
     right: 16px;
     left: 16px;
     background: linear-gradient(180deg, #141414, #0d0d0d);
@@ -910,6 +913,10 @@ summary:focus-visible {
 
   .nav-toggle {
     display: inline-flex;
+  }
+
+  .brand img {
+    height: 76px;
   }
 
   .header-cta {
