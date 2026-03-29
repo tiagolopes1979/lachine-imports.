@@ -99,7 +99,7 @@ summary:focus-visible {
 }
 
 .header-inner {
-  min-height: 92px;
+  min-height: 98px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -107,7 +107,7 @@ summary:focus-visible {
 }
 
 .brand img {
-  height: 82px;
+  height: 90px;
   width: auto;
   object-fit: contain;
   filter:
